@@ -3,7 +3,6 @@ var cities = ["New York", "San Francisco"]
 
 function addElementToBeginningOfArray (array,element) {
 return [element, ...array];
-
 }
 
 function destructivelyAddElementToBeginningOfArray (array,element) {
@@ -15,7 +14,7 @@ function addElementToEndOfArray (array,element) {
 return [...array, element];
 }
 
-function destructivelyRemoveElementFromBeginningOfArray (array,element) {
+function destructivelyAddElementToEndOfArray (array,element) {
 array.push(element);
 return array;
 }
@@ -30,8 +29,7 @@ return array;
 }
 
 function removeElementFromBeginningOfArray (array) {
-array1 = array.slice(1)
-return array1
+return array.slice(1)
 }
 
 function removeElementFromEndOfArray (array) {
