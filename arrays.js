@@ -24,11 +24,10 @@ return array[index];
 }
 
 function destructivelyRemoveElementFromBeginningOfArray (array,element) {
-array.shift(element);
+array.shift();
 return array;
 }
 
 function removeElementFromBeginningOfArray (array) {
-array.shift();
-return array;
+return array.slice(1)
 }
