@@ -24,7 +24,7 @@ return array[index];
 }
 
 function destructivelyRemoveElementFromBeginningOfArray (array,element) {
-array.shift();
+array.shift(element);
 return array;
 }
 
