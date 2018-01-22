@@ -10,7 +10,6 @@ array.unshift(element);
 return array;
 }
 
-function  (array,element) {
-array.unshift(element);
-return array;
+function addElementToEndOfArray (array,element) {
+return [array, ...element];
 }
