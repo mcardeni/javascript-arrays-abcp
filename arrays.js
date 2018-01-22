@@ -29,7 +29,8 @@ return array;
 }
 
 function removeElementFromBeginningOfArray (array) {
-return array.slice(1)
+array1 = array.slice(1)
+return array1
 }
 
 function removeElementFromEndOfArray (array) {
