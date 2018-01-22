@@ -13,3 +13,7 @@ return array;
 function addElementToEndOfArray (array,element) {
 return [array, ...element];
 }
+
+function addElementToEndOfArray (array,element) {
+return [array, ...element];
+}
